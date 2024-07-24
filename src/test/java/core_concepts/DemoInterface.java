@@ -9,7 +9,6 @@ interface Sample1{
 interface Sample2{
 	int x = 20;
 	public void method1();
-	
 }
 
 interface Sample3 extends Sample2{
@@ -31,8 +30,6 @@ public class DemoInterface implements Sample3, Sample1 {
 		System.out.println(Sample1.x);
 		System.out.println(Sample2.x);
 //		System.out.println(x);
-		
-
 	}
 
 }
