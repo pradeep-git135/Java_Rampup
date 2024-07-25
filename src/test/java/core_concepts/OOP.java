@@ -12,7 +12,7 @@ class Ref extends Source{
 	int y = 2;
 	String z = "class_ref";
 	
-	public void method1() {
+	 void method1() {
 		System.out.println("I am from method 1");
 	}
 }
